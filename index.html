@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parilabs — Engineering Consultancy</title>
+  <meta name="description" content="Parilabs is an engineering consultancy delivering software, systems and technical advisory services.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>P</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Pari<span>labs</span></a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Engineering Consultancy</p>
+        <h1>We design and build reliable systems that move your business forward.</h1>
+        <p class="lead">From architecture reviews to end-to-end delivery, Parilabs helps teams ship robust software, cloud infrastructure and data platforms.</p>
+        <div class="actions">
+          <a href="#contact" class="btn">Start a project</a>
+          <a href="#portfolio" class="btn btn-ghost">See our work</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Software Engineering</h3>
+            <p>Custom web, backend and API development with a focus on quality, testing and maintainability.</p>
+          </article>
+          <article class="card">
+            <h3>Cloud &amp; DevOps</h3>
+            <p>Infrastructure as code, CI/CD pipelines, observability and cost-efficient cloud architecture.</p>
+          </article>
+          <article class="card">
+            <h3>Technical Advisory</h3>
+            <p>Architecture reviews, due diligence, team mentoring and technology strategy for growing companies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section section-alt">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p class="section-lead">A selection of recent engagements.</p>
+        <div class="grid">
+          <article class="card project">
+            <span class="tag">FinTech</span>
+            <h3>Payments Platform Modernisation</h3>
+            <p>Migrated a legacy monolith to event-driven services, cutting deployment time from days to minutes.</p>
+            <ul class="stack"><li>Go</li><li>Kafka</li><li>AWS</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Industrial IoT</span>
+            <h3>Sensor Data Pipeline</h3>
+            <p>Designed a real-time ingestion pipeline processing millions of readings per day with live dashboards.</p>
+            <ul class="stack"><li>Python</li><li>TimescaleDB</li><li>Grafana</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">SaaS</span>
+            <h3>Customer Portal Rebuild</h3>
+            <p>Delivered a fast, accessible customer portal and design system used across three product lines.</p>
+            <ul class="stack"><li>TypeScript</li><li>React</li><li>Azure</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about">
+        <div>
+          <h2>About</h2>
+          <p>Parilabs is a small, senior engineering team. We work closely with our clients, communicate openly and take ownership of outcomes — not just tickets.</p>
+          <p>Whether you need a short advisory engagement or a full delivery team, we adapt to your process and leave your codebase better than we found it.</p>
+        </div>
+        <ul class="stats">
+          <li><strong>10+</strong><span>years experience</span></li>
+          <li><strong>30+</strong><span>projects delivered</span></li>
+          <li><strong>100%</strong><span>remote-friendly</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+      <div class="container contact">
+        <h2>Let's talk</h2>
+        <p>Tell us about your project and we'll get back to you within one business day.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:hello@parilabs.org">hello@parilabs.org</a></li>
+          <li><span>Phone</span><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/company/parilabs" target="_blank" rel="noopener">linkedin.com/company/parilabs</a></li>
+          <li><span>GitHub</span><a href="https://github.com/pmiros" target="_blank" rel="noopener">github.com/pmiros</a></li>
+        </ul>
+        <a href="mailto:hello@parilabs.org?subject=Project%20enquiry" class="btn">Email us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Parilabs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
