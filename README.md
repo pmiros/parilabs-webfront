@@ -8,6 +8,11 @@ One-page website for **Parilabs** (engineering consultancy), hosted on GitHub Pa
 - `styles.css` — styling
 - `CNAME` — tells GitHub Pages to serve the site on `parilabs.org`
 
+## Contact form
+
+The form posts to [FormSubmit](https://formsubmit.co) (no account needed), which emails submissions to `sales@parilabs.org`.
+The **first** submission triggers a one-time activation email to that address — click the link in it to start receiving messages.
+
 ## Local preview
 
 ```sh

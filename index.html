@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parilabs — Engineering Consultancy</title>
-  <meta name="description" content="Parilabs is an engineering consultancy delivering software, systems and technical advisory services.">
+  <title>Parilabs — Advanced electrical engineering consultancy</title>
+  <meta name="description" content="Parilabs is an engineering consultancy for hardware, electronics, embedded software, prototyping and product development with compliance.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>P</text></svg>">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,100 +13,224 @@
     <div class="container nav-inner">
       <a href="#top" class="logo">Pari<span>labs</span></a>
       <nav>
+        <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
         <a href="#contact" class="btn btn-small">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
+    <!-- Home -->
     <section class="hero">
       <div class="container">
-        <p class="eyebrow">Engineering Consultancy</p>
-        <h1>We design and build reliable systems that move your business forward.</h1>
-        <p class="lead">From architecture reviews to end-to-end delivery, Parilabs helps teams ship robust software, cloud infrastructure and data platforms.</p>
+        <p class="eyebrow">Advanced electrical engineering consultancy</p>
+        <h1>From concept to certified product — hardware, electronics and software under one roof.</h1>
+        <p class="lead">Parilabs helps companies design, prototype and bring to market reliable electronic products. We combine hands-on hardware and embedded expertise with modern software to take ideas from the bench to production.</p>
         <div class="actions">
           <a href="#contact" class="btn">Start a project</a>
           <a href="#portfolio" class="btn btn-ghost">See our work</a>
         </div>
+        <ul class="chips">
+          <li>PCB design</li>
+          <li>Embedded firmware</li>
+          <li>RF &amp; wireless</li>
+          <li>IoT / IIoT</li>
+          <li>Data acquisition</li>
+          <li>Systems engineering</li>
+          <li>Verification &amp; validation</li>
+          <li>Safety-critical &amp; medical</li>
+        </ul>
       </div>
     </section>
 
-    <section id="services" class="section">
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About us</h2>
+        <div class="about">
+          <div>
+            <p>Parilabs is an engineering consultancy founded by engineers who have shipped safety-critical medical devices, industrial control systems, hydrogen energy rigs and connected IoT products.</p>
+            <p><strong>Our philosophy:</strong> build it, measure it, prove it. We prototype early, test rigorously and design with manufacturing and compliance in mind from day one — so the product that works on the bench is the product that passes certification and scales into production.</p>
+          </div>
+          <ul class="stats">
+            <li><strong>End-to-end</strong><span>concept, design, prototype, V&amp;V, production</span></li>
+            <li><strong>Multi-discipline</strong><span>hardware, firmware, software &amp; cloud</span></li>
+          </ul>
+        </div>
+
+        <h3 class="subhead">The team</h3>
+        <div class="grid team">
+          <article class="card person">
+            <div class="avatar">PM</div>
+            <h3>Pavel Mirosnicenco</h3>
+            <p class="role">Co-founder</p>
+            <a href="mailto:pavel.mirosnicenco@parilabs.org">pavel.mirosnicenco@parilabs.org</a>
+          </article>
+          <article class="card person">
+            <div class="avatar">AK</div>
+            <h3>Arshia Keshvari</h3>
+            <p class="role">Co-founder</p>
+            <a href="mailto:arshia.keshvariasl@parilabs.org">arshia.keshvariasl@parilabs.org</a>
+          </article>
+          <article class="card person">
+            <div class="avatar">BA</div>
+            <h3>Benjamin Adegoke</h3>
+            <p class="role">Founding Account Executive</p>
+            <a href="mailto:ben.adegoke@parilabs.org">ben.adegoke@parilabs.org</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section section-alt">
       <div class="container">
         <h2>Services</h2>
         <div class="grid">
           <article class="card">
-            <h3>Software Engineering</h3>
-            <p>Custom web, backend and API development with a focus on quality, testing and maintainability.</p>
+            <h3>Hardware Engineering</h3>
+            <p>System architecture, component selection, mechanical integration and control cabinets for laboratory, industrial and field deployments.</p>
           </article>
           <article class="card">
-            <h3>Cloud &amp; DevOps</h3>
-            <p>Infrastructure as code, CI/CD pipelines, observability and cost-efficient cloud architecture.</p>
+            <h3>Electronics Development</h3>
+            <p>Schematic capture and PCB design for mixed-signal, power, sensing and RF circuits — from single boards to modular product families.</p>
           </article>
           <article class="card">
-            <h3>Technical Advisory</h3>
-            <p>Architecture reviews, due diligence, team mentoring and technology strategy for growing companies.</p>
+            <h3>Software Development</h3>
+            <p>Embedded firmware in C/C++ and MicroPython, communication protocols (CAN, LoRaWAN, MQTT, LTE), test automation and web dashboards.</p>
+          </article>
+          <article class="card">
+            <h3>Prototyping</h3>
+            <p>Rapid, functional prototypes and test rigs that let you validate ideas, demo to investors and de-risk development early.</p>
+          </article>
+          <article class="card">
+            <h3>Product Development &amp; Compliance</h3>
+            <p>Taking products through verification &amp; validation, certification support, production transfer and long-term sustaining engineering.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="portfolio" class="section section-alt">
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
       <div class="container">
         <h2>Portfolio</h2>
-        <p class="section-lead">A selection of recent engagements.</p>
+        <p class="section-lead">Companies our team has consulted for or built products with:</p>
+        <ul class="clients">
+          <li>Philips</li>
+          <li>BioBright</li>
+          <li>H2GO Power</li>
+        </ul>
+
+        <p class="section-lead">Selected projects</p>
         <div class="grid">
           <article class="card project">
-            <span class="tag">FinTech</span>
-            <h3>Payments Platform Modernisation</h3>
-            <p>Migrated a legacy monolith to event-driven services, cutting deployment time from days to minutes.</p>
-            <ul class="stack"><li>Go</li><li>Kafka</li><li>AWS</li></ul>
+            <span class="tag">Medical devices</span>
+            <h3>Portable Patient Monitors &amp; Defibrillators</h3>
+            <p>Full-lifecycle engineering of safety-critical multi-parameter monitors and monitor/defibrillators used in clinical, pre-hospital, military and airborne environments — from R&amp;D and prototyping through V&amp;V, certification and sustaining.</p>
+            <ul class="stack"><li>Systems engineering</li><li>RF</li><li>V&amp;V</li><li>PCB design</li></ul>
           </article>
           <article class="card project">
-            <span class="tag">Industrial IoT</span>
-            <h3>Sensor Data Pipeline</h3>
-            <p>Designed a real-time ingestion pipeline processing millions of readings per day with live dashboards.</p>
-            <ul class="stack"><li>Python</li><li>TimescaleDB</li><li>Grafana</li></ul>
+            <span class="tag">Environmental IoT</span>
+            <h3>Autonomous Environmental Sensing Platform</h3>
+            <p>Autonomous water and atmospheric sensing hardware with a real-time cloud platform, monitoring CO₂, water quality, nitrates, phosphates and heavy metals to support low-emission maritime ports.</p>
+            <ul class="stack"><li>Embedded</li><li>PCB design</li><li>Protocols</li><li>R&amp;D</li></ul>
           </article>
           <article class="card project">
-            <span class="tag">SaaS</span>
-            <h3>Customer Portal Rebuild</h3>
-            <p>Delivered a fast, accessible customer portal and design system used across three product lines.</p>
-            <ul class="stack"><li>TypeScript</li><li>React</li><li>Azure</li></ul>
+            <span class="tag">Hydrogen energy</span>
+            <h3>SHyLO &amp; SHyGaN Hydrogen Systems</h3>
+            <p>Electronics and embedded systems for modular solid-state hydrogen storage and an AI-optimised hydrogen heating/cooling solution for smart gas networks — government-funded programmes.</p>
+            <ul class="stack"><li>C/C++</li><li>Python</li><li>Electronics</li><li>V&amp;V</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Industrial control</span>
+            <h3>HyTEST Smart Control Cabinet</h3>
+            <p>Intelligent electrical control cabinet integrating multiple ECUs, OTA firmware updates, remote control and real-time diagnostics via a SaaS dashboard.</p>
+            <ul class="stack"><li>Embedded</li><li>Telecoms</li><li>Mechanical</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Data acquisition</span>
+            <h3>Modular DAQ Rigs &amp; HyCycle Reactor Rig</h3>
+            <p>Modular sensing boards for pressure, temperature, flow, strain and gas, plus a compact high-precision rig with 24-bit load-cell sensing for hydrogen reactor experiments.</p>
+            <ul class="stack"><li>PCB design</li><li>C/C++</li><li>Python</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">IoT / IIoT</span>
+            <h3>Modular Mixed-Signal I/O Platform</h3>
+            <p>A family of analog, digital and combo I/O modules with automation frameworks for ESP32, STM32, Arduino and Raspberry Pi — for commercial and DIY automation.</p>
+            <ul class="stack"><li>MicroPython</li><li>Electronics</li><li>Testing</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Wireless</span>
+            <h3>Multi-Radio Edge Gateway</h3>
+            <p>Wireless gateway linking distributed sensor nodes to cloud and edge platforms over LoRaWAN, Iridium satellite and LTE/MQTT, with on-device processing and secure data handling.</p>
+            <ul class="stack"><li>RF</li><li>LoRaWAN</li><li>Embedded</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Smart energy</span>
+            <h3>Smart Plug Sockets &amp; Fuse Spurs</h3>
+            <p>ESP32-based mains devices with relay switching, current/voltage sensing and energy-metering ICs for real-time monitoring, remote control and improved electrical safety.</p>
+            <ul class="stack"><li>PCB design</li><li>Mains AC</li><li>V&amp;V</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Industrial</span>
+            <h3>Industrial CAN Joystick Controller</h3>
+            <p>Testing, diagnostics and V&amp;V of an industrial joystick controller for mechanical manipulators, built on a PIC microcontroller with fault-tolerant CAN bus communication.</p>
+            <ul class="stack"><li>Embedded C</li><li>CAN</li><li>Testing</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Test equipment</span>
+            <h3>Automated Contact Force Tester</h3>
+            <p>Electromechanical test platform characterising force–displacement of contact pins, with stepper-driven actuation and custom software for repeatable, automated testing.</p>
+            <ul class="stack"><li>Python</li><li>C/C++</li><li>Mechanical</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Consumer product</span>
+            <h3>IoT Moon Phase Lamp</h3>
+            <p>Client product for an investor pitch: a Wi-Fi connected PCB lamp that shows the real-time moon phase, controllable from a mobile or web app.</p>
+            <ul class="stack"><li>ESP32</li><li>React</li><li>PCB design</li></ul>
+          </article>
+          <article class="card project">
+            <span class="tag">Signal processing</span>
+            <h3>Phase Synchroniser</h3>
+            <p>Low-cost closed-loop system that aligns the phase of two asynchronous signals while preserving their original frequency — designed for low-frequency biological signals.</p>
+            <ul class="stack"><li>Electronics</li><li>C/C++</li><li>R&amp;D</li></ul>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container about">
-        <div>
-          <h2>About</h2>
-          <p>Parilabs is a small, senior engineering team. We work closely with our clients, communicate openly and take ownership of outcomes — not just tickets.</p>
-          <p>Whether you need a short advisory engagement or a full delivery team, we adapt to your process and leave your codebase better than we found it.</p>
-        </div>
-        <ul class="stats">
-          <li><strong>10+</strong><span>years experience</span></li>
-          <li><strong>30+</strong><span>projects delivered</span></li>
-          <li><strong>100%</strong><span>remote-friendly</span></li>
-        </ul>
-      </div>
-    </section>
-
+    <!-- Contact -->
     <section id="contact" class="section section-dark">
       <div class="container contact">
-        <h2>Let's talk</h2>
-        <p>Tell us about your project and we'll get back to you within one business day.</p>
-        <ul class="contact-list">
-          <li><span>Email</span><a href="mailto:hello@parilabs.org">hello@parilabs.org</a></li>
-          <li><span>Phone</span><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
-          <li><span>LinkedIn</span><a href="https://www.linkedin.com/company/parilabs" target="_blank" rel="noopener">linkedin.com/company/parilabs</a></li>
-          <li><span>GitHub</span><a href="https://github.com/pmiros" target="_blank" rel="noopener">github.com/pmiros</a></li>
-        </ul>
-        <a href="mailto:hello@parilabs.org?subject=Project%20enquiry" class="btn">Email us</a>
+        <h2>Contact us</h2>
+        <p class="contact-lead">Tell us about your project and we'll get back to you within one business day.</p>
+
+        <div class="contact-grid">
+          <form class="contact-form" action="https://formsubmit.co/sales@parilabs.org" method="POST">
+            <input type="hidden" name="_subject" value="New enquiry from parilabs.org">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://parilabs.org/?sent=1#contact">
+            <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off">
+
+            <p id="form-sent" class="form-sent" hidden>Thanks — your message has been sent. We'll be in touch shortly.</p>
+
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Company<input type="text" name="company"></label>
+            <label>Message<textarea name="message" rows="5" required></textarea></label>
+            <button type="submit" class="btn">Send message</button>
+          </form>
+
+          <ul class="contact-list">
+            <li><span>General &amp; sales</span><a href="mailto:sales@parilabs.org">sales@parilabs.org</a></li>
+            <li><span>Pavel Mirosnicenco</span><a href="mailto:pavel.mirosnicenco@parilabs.org">pavel.mirosnicenco@parilabs.org</a></li>
+            <li><span>Arshia Keshvari</span><a href="mailto:arshia.keshvariasl@parilabs.org">arshia.keshvariasl@parilabs.org</a></li>
+            <li><span>Benjamin Adegoke</span><a href="mailto:ben.adegoke@parilabs.org">ben.adegoke@parilabs.org</a></li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
@@ -117,6 +241,9 @@
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    if (new URLSearchParams(location.search).has('sent')) document.getElementById('form-sent').hidden = false;
+  </script>
 </body>
 </html>
